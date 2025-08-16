@@ -9,11 +9,28 @@
   --shadow: 0 8px 20px rgba(0,0,0,.08);
 }
 
+/* Font downloaded cherry bomb one */
+.cherry-bomb-one-regular {
+  font-family: "Cherry Bomb One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* font downloaded */
+.akaya-kanadaka-regular {
+  font-family: "Akaya Kanadaka", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Segoe UI', Tahoma, sans-serif;
+  /* font-family: 'Segoe UI', Tahoma, sans-serif; */
+  font-family: "Akaya Kanadaka", system-ui;
+  font-weight: 330;
 }
 
 body {
