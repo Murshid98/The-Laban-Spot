@@ -40,10 +40,10 @@ body {
 /* location icon */
 
 .icon {
-  width: 18px;       /* adjust size */
+  width: 24px;       /* adjust size */
   height: auto;      /* keeps proportions */
   vertical-align: middle;  /* aligns with text */
-  margin-right: 6px; /* space between icon and text */
+  margin-right: 0px; /* space between icon and text */
 }
 
 /* Sticky Navbar */
@@ -249,9 +249,84 @@ body {
 /* End of Product style section */
 
 /* Footer */
-.footer {
+/* .footer {
   background: #f9f9f9;
   padding: 2rem;
   color: var(--muted);
   font-size: 0.9rem;
+} */
+
+.footer {
+  background: #00a6f2; /* blue */
+  color: white;
+  padding: 3rem 1rem;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* allows wrapping on mobile */
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-logo {
+  height: 100px;
+  border-color: #f7f7f7;
+}
+
+.footer-nav {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.footer-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.footer-nav a:hover {
+  color: #cce0ff;
+}
+
+.footer-social {
+  display: flex;
+  gap: 1rem;
+}
+
+.social-btn {
+  width: 40px;
+  height: 40px;
+  border: 2px solid white;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1.2rem;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.social-btn:hover {
+  background: white;
+  color: #1e5fff;
+}
+
+/* 📱 Mobile view */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+    gap: 0.8rem;
+  }
 }
