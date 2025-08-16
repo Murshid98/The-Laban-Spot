@@ -1,9 +1,9 @@
 
 :root {
   --bg: #ffffff;
-  --text: #1e5fff;   /* <-- Make all text blue */
-  --muted: #1e5fff;  /* Even muted text stays blue */
-  --primary: #1e5fff;
+  --text: #00a6f2;   /* <-- Make all text blue */
+  --muted: #00a6f2;  /* Even muted text stays blue */
+  --primary: #00a6f2;
   --accent: #56c7ff;
   --radius: 18px;
   --shadow: 0 8px 20px rgba(0,0,0,.08);
