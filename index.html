@@ -1,133 +1,147 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>The Laban Spot</title>
-	
-	<!-- CSS -->
-	<link rel="stylesheet" href="css/bootstrap.min.css" />
-	<link rel="stylesheet" href="css/font-awesome.min.css" />
-	<link rel="stylesheet" href="css/normalize.css" />
-	<link rel="stylesheet" href="css/style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Laban Spot</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/logo.png">
 
-	<!-- COLORS -->
-	<link rel="stylesheet" href="css/blue.css" title="blue"> <!-- DEFAULT COLOR/ CURRENTLY USING -->
-    <link rel="alternate stylesheet" href="css/green.css" title="green">
-	<link rel="alternate stylesheet" href="css/orange.css" title="orange">
-	<link rel="alternate stylesheet" href="css/purple.css" title="purple">
-	<link rel="alternate stylesheet" href="css/slate.css" title="slate">
-	<link rel="alternate stylesheet" href="css/yellow.css" title="yellow">
-	<link rel="alternate stylesheet" href="css/red.css" title="red">
-	<link rel="alternate stylesheet" href="css/blue-munsell.css" title="blue-munsell">
-
-	<!-- STYLE SWITCH STYLESHEET ONLY FOR DEMO -->
-	<link rel="stylesheet" href="css/demo.css">
-	
 </head>
 <body>
+  <header class="navbar">
+     <a href="#hero" class="brand">
+      <img src="images/logo.png" alt="The Laban Spot" class="logo" />
+      <!-- <span class="brand-text">The Laban Spot</span> -->
+    </a>
+    <nav>
+      <!-- <a href="#hero">Home</a> -->
+      <a href="#products">Products</a>
+      <a href="#features">Features</a>
+      <!-- <a href="#stores">Stores</a> -->
+      <a href="#footer">Contact</a>
+    </nav>
+  </header>
 
-	<div id="st-preloader">
-		<div id="pre-status">
-			<div class="preload-placeholder"></div>
-		</div>
-	</div><!-- /#st-preloader -->
+  <section id="hero" class="hero section">
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="orb orb3"></div>
+    <div class="hero-content">
+      <h4>Stay tuned, website work in progress..</h4>
+      <h1>The Laban Spot</h1>
+      <h3><img src="images/locationIcon.png" alt="location" class="icon">Kaithappoyil</h3>
+      <p>Egyptian dessert at the foothills of Wayanadan hills</p>
+      <a href="https://wa.me/+918113932004" target="_blank" class="btn btn-primary"><img src="images/whatsapp2.png" alt="whatsapp" class="icon"></a>
+    </div>
+  </section>
 
-	<section id="home-page">
-		<div class="container-fluid home-bg">
-			<div class="row">
-				<div class="col-md-12 text-center home-page">
-					<div class="main-logo">
-						<a href=""><img src="images/logo.png" alt="" /></a>
-					</div>
-					<h1>Work In Progress</h1>
-					<h2>Stay tuned</h2>
-					<div class="container">
-						<!-- COUNTDOWN -->      
-						<div class="row">
-							<div class="col-sm-12 tk-countdown">
-								<div class="row">
+<!-- beginning of product section -->
 
-								</div>
-							</div>
-						</div>
-						<!-- /COUNTDOWN -->
-					
-				</div>
-			</div>
-		</div>
-	</section><!-- /#home-page -->
+<section id="products" class="section products">
+  <div class="container">
+    <header class="section-head">
+      <h2>Menu</h2>
+      <!-- <p>You are going to love our desserts for sure.</p> -->
+    </header>
 
+    <div class="card-grid">
+      <article class="product-card">
+        <img src="images/salankatia.jpg" alt="Salankatia Dessert" class="product-img" />
+        <h3>Salankatia</h3>
+        <p class="muted">Velvety, fragrant, and creamy.</p>
+      </article>
 
-	<footer class="footer">
-		<div class="container">
-			
-		</div>
-	</footer><!-- /.footer -->
-	
-	<!-- JS -->
-	<script type="text/javascript" src="js/jquery.min.js"></script><!-- jQuery -->
-	<script type="text/javascript" src="js/bootstrap.min.js"></script><!-- Bootstrap -->
-	<script type="text/javascript" src="js/countdown.js"></script><!-- Countdown -->
-	<script type="text/javascript" src="js/jquery.ajaxchimp.js"></script><!-- ajaxchimp -->
-	<script type="text/javascript" src="js/scripts.js"></script><!-- Scripts -->
+      <article class="product-card">
+        <img src="images/nutella.jpg" alt="Nutella Dessert" class="product-img" />
+        <h3>Nutella</h3>
+        <p class="muted">Classic richness with a chocolate twist.</p>
+      </article>
 
-	<!-- =========================================================
-	     STYLE SWITCHER | ONLY FOR DEMO NOT INCLUDED IN MAIN FILES
-	============================================================== -->
-	<script type="text/javascript" src="js/styleswitcher.js"></script>
-	<script type="text/javascript" src="js/demo.js"></script>
-	<div class="demo-style-switch" id="switch-style">
-		<a id="toggle-switcher" class="switch-button"><i class="fa fa-cog fa-spin fa-fw"></i></a>
-		<div class="switched-options">				
-			<div class="config-title">
-				Colors :
-			</div>
-			<ul class="styles">
-				<li><a href="#" onclick="setActiveStyleSheet('blue'); return false;" title="Blue">
-				<div class="blue">
-				</div>
-				</a></li>
-				
-				<li><a href="#" onclick="setActiveStyleSheet('purple'); return false;" title="Purple">
-				<div class="purple">
-				</div>
-				</a></li>
-				
-				<li><a href="#" onclick="setActiveStyleSheet('blue-munsell'); return false;" title="Blue Munsell">
-				<div class="blue-munsell">
-				</div>
-				</a></li>
-				
-				<li><a href="#" onclick="setActiveStyleSheet('orange'); return false;" title="Orange">
-				<div class="orange">
-				</div>
-				</a></li>
-				
-				<li><a href="#" onclick="setActiveStyleSheet('slate'); return false;" title="Slate">
-				<div class="slate">
-				</div>
-				</a></li>
-				
-				<li><a href="#" onclick="setActiveStyleSheet('green'); return false;" title="Green">
-				<div class="green">
-				</div>
-				</a></li>
-				
-				<li><a href="#" onclick="setActiveStyleSheet('yellow'); return false;" title="Yellow">
-				<div class="yellow">
-				</div>
-				</a></li>
-				
-				<li><a href="#" onclick="setActiveStyleSheet('red'); return false;" title="Red">
-				<div class="red">
-				</div>
-				</a></li>
-				
-			</ul>
-		</div>
-	</div>
-	
+      <article class="product-card">
+        <img src="images/pistachio-lotus.jpg" alt="Pistachio Lotus Dessert" class="product-img" />
+        <h3>Pistachio Lotus</h3>
+        <p class="muted">Crunch meets cream in a nutty duet.</p>
+      </article>
+
+      <article class="product-card">
+        <img src="images/nutella-lotus.jpg" alt="Nutella Lotus Dessert" class="product-img" />
+        <h3>Nutella Lotus</h3>
+        <p class="muted">Caramelised biscuit meets chocolate bliss.</p>
+      </article>
+
+      <article class="product-card">
+        <img src="images/nutella-pistachio.jpg" alt="Nutella Pistachio Dessert" class="product-img" />
+        <h3>Nutella Pistachio</h3>
+        <p class="muted">A bold, indulgent pairing.</p>
+      </article>
+
+      <article class="product-card">
+        <img src="images/mango.jpg" alt="Mango Dessert" class="product-img" />
+        <h3>Mango</h3>
+        <p class="muted">Sun-kissed, fruity freshness.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- end of products section -->
+
+  <!-- <section id="features" class="section">
+    <h2>Features</h2>
+    <div class="card-grid">
+      <div class="card">Feature A</div>
+      <div class="card">Feature B</div>
+      <div class="card">Feature C</div>
+    </div>
+  </section> -->
+
+  <!-- <section id="stores" class="section">
+    <h2>Our Stores</h2>
+    <p>We are available across the globe.</p>
+  </section> -->
+
+  <!-- Contact -->
+<section id="contact" class="section contact">
+  <div class="container">
+    <header class="section-head">
+      <h2>Contact Us</h2>
+      <p>We’d love to hear from you. Send us a message below.</p>
+    </header>
+
+    <form class="contact-form">
+      <div class="form-group">
+        <input type="text" name="name" placeholder="Your Name" required />
+      </div>
+      <div class="form-group">
+        <input type="email" name="email" placeholder="Your Email" required />
+      </div>
+      <div class="form-group">
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+  </div>
+</section>
+
+  <footer id="footer" class="footer section">
+    <p>&copy; 2025 The Laban Spot. All rights reserved.</p>
+  </footer>
+
+  <script>
+  const sections = document.querySelectorAll('.section');
+  sections.forEach(sec => sec.classList.add('fade'));
+  const revealOnScroll = () => {
+    sections.forEach(sec => {
+      const rect = sec.getBoundingClientRect();
+      if (rect.top < window.innerHeight - 80) {
+        sec.classList.add('visible');
+      }
+    });
+  };
+  window.addEventListener('scroll', revealOnScroll);
+  revealOnScroll();
+  </script>
 </body>
 </html>
