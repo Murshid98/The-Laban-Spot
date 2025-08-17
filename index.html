@@ -12,6 +12,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
 
 </head>
 <body>
@@ -36,8 +38,8 @@
     <div class="hero-content">
       <h4 style="color: black;">Stay tuned, website under construction..</h4>
       <h1 class="cherry-bomb-one-regular">The Laban Spot</h1>
-      <h3 class="akaya-kanadaka-regular" style="color: black;"><img src="images/locationIcon.png" alt="location" class="icon">Kaithappoyil</h3>
-      <p class="akaya-kanadaka-regular">Egyptian dessert at the foothills of Wayanadan hills, join us for the delicious treat..</p>
+      <a href="https://maps.app.goo.gl/wmFoPMvzcHtLeoVV6" style="text-decoration: none; padding-bottom: 100px;"><h3 class="akaya-kanadaka-regular" style="color: black; padding-bottom: 15px;"><img src="images/locationIcon.png" alt="location" class="icon">Kaithappoyil</h3></a>
+      <p class="akaya-kanadaka-regular">Egyptian dessert at the foothills of Wayanad, join us for the delicious treat..</p>
       <!-- <a href="tel:+918113932004" target="_blank" class="btn btn-primary"><img src="images/call.png" alt="whatsapp" class="icon"></a> -->
       <a href="tel:+918113932004" target="_blank" class="btn btn-primary" style="text-decoration: none;">Call Now</a>
     </div>
@@ -92,6 +94,7 @@
   </section> -->
 
   <!-- Contact -->
+
 <section id="contact" class="section contact">
   <div class="container">
     <header class="section-head">
@@ -99,7 +102,50 @@
       <!-- <p>We’d love to hear from you. Send us a message below.</p> -->
     </header>
 
-    <form class="contact-form">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="mb-5">
+          <section id="map" class="map-section">
+            <div class="map-container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3910.006608563123!2d75.99859367462432!3d11.479448288715325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba66d4849ef13a5%3A0x734ad17b1294344a!2sThe%20Laban%20spot!5e0!3m2!1sen!2sin!4v1755420709474!5m2!1sen!2sin"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
+            </div>
+          </section>
+        <div class="row gy-4">
+
+              <!-- Info section -->
+                  <section class="contact-info">
+                    <div class="info-block">
+                      <h3><i class="fa-solid fa-location-dot"></i> Address</h3>
+                      <p>Kaithappoyil, Near Yummy, 673586</p>
+                    </div>
+
+                    <div class="info-block">
+                      <h3><i class="fa-solid fa-phone"></i> Call Us</h3>
+                      <p><a href="tel:+918113932004" style="text-decoration: none; color: black;">+91 81139 32004</a></p>
+                    </div>
+
+                    <div class="info-block">
+                      <h3><i class="fa-solid fa-envelope"></i> Email Us</h3>
+                      <p><a href="mailto:abdullamurshidkv@gmail.com" style="text-decoration: none; color: black;">abdullamurshidkv@gmail.com</a></p>
+                    </div>
+
+                    <div class="info-block">
+                      <h3><i class="fa-solid fa-clock"></i> Opening Hours</h3>
+                      <p>10:00 AM – 12:00 AM</p>
+                    </div>
+                  </section>
+
+              <!-- End of info section -->
+
+        </div>
+
+            <form class="contact-form">
       <div class="form-group">
         <input type="text" name="name" placeholder="Your Name" required />
       </div>
