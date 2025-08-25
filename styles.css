@@ -244,11 +244,13 @@ body {
 /* Product Card */
 .product-card {
   background: #fff;
-  border-radius: var(--radius);
-  box-shadow: var(--shadow);
   padding: 1.2rem;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: center;
+  /*border: 2px solid #00a6f2;   Blue border */
+  border-radius: 12px;
+  overflow: hidden; /* keeps the inner content neatly inside */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 .product-card:hover {
@@ -262,6 +264,23 @@ body {
   object-fit: contain;
   border-radius: var(--radius);
   margin-bottom: 0.8rem;
+}
+
+.product-card img {
+  width: 100%;
+  display: block;
+}
+
+.product-info {
+  background-color: #00a6f2; /* Blue background */
+  color: white;             /* White text */
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.product-info h3,
+.product-info p {
+  margin: 5px 0;
 }
 
 
